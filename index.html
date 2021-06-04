@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>Artificial Intelligence website</title>
+</head>
+<body>
+<font face="AR cena"size="14"color="red">Name:Gamil Seif Elnaser Gamil<br>
+<font face="AR cena"size="10"color="red">Sec:12<br>
+<font face="AR cena"size="10"color="red">B.N :19<br>
+<center><font face="AR cena"size="14"color="red">Artificial Intelligence</center>
+<img src="2.jpg"height="300" width="300"align="right"/>
+<font face="AR cena"size="14"color="blue">Introduction about  Artificial Intelligence<br>
+<font face="AR cena"size="6"color="black"><br>
+Artificial intelligence (AI) is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals, which involves consciousness and emotionality. The distinction between the former and the latter categories is often revealed by the acronym chosen. 'Strong' AI is usually labelled as artificial general intelligence (AGI) while attempts to emulate 'natural' intelligence have been called artificial biological intelligence (ABI). Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of achieving its goals.[3] Colloquially, the term "artificial intelligence" is often used to describe machines that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".[4]
+
+As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect.[5] A quip in Tesler's Theorem says "AI is whatever hasn't been done yet."[6] For instance, optical character recognition is frequently excluded from things considered to be AI,[7] having become a routine technology.[8] Modern machine capabilities generally classified as AI include successfully understanding human speech,[9] competing at the highest level in strategic game systems (such as chess and Go),[10] and also imperfect-information games like poker,[11] self-driving cars, intelligent routing in content delivery networks, and military simulations.[12]
+
+Artificial intelligence was founded as an academic discipline in 1955, and in the years since has experienced several waves of optimism,[13][14] followed by disappointment and the loss of funding (known as an "AI winter"),[15][16] followed by new approaches, success and renewed funding.[14][17] After AlphaGo defeated a professional Go player in 2015, artificial intelligence once again attracted widespread global attention.[18] For most of its history, AI research has been divided into sub-fields that often fail to communicate with each other.[19] These sub-fields are based on technical considerations, such as particular goals (e.g. "robotics" or "machine learning"),[20] the use of particular tools ("logic" or artificial neural networks), or deep philosophical differences.[23][24][25] Sub-fields have also been based on social factors (particular institutions or the work of particular researchers).[19]
+
+The traditional problems (or goals) of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception and the ability to move and manipulate objects.[20] AGI is among the field's long-term goals.[26] Approaches include statistical methods, computational intelligence, and traditional symbolic AI. Many tools are used in AI, including versions of search and mathematical optimization, artificial neural networks, and methods based on statistics, probability and economics. The AI field draws upon computer science, information engineering, mathematics, psychology, linguistics, philosophy, and many other fields.
+
+The field was founded on the assumption that human intelligence "can be so precisely described that a machine can be made to simulate it".[27] This raises philosophical arguments about the mind and the ethics of creating artificial beings endowed with human-like intelligence. These issues have been explored by myth, fiction and philosophy since antiquity.[32] Some people also consider AI to be a danger to humanity if it progresses unabated.[33][34] Others believe that AI, unlike previous technological revolutions, will create a risk of mass unemployment.[35]
+
+In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research.
+<font face="AR cena"size="14"color="blue"><br>
+Basics
+<font face="AR cena"size="6"color="black"><br>
+
+
+
+Computer science defines AI research as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.[3] A more elaborate definition characterizes AI as "a system's ability to correctly interpret external data, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation."[77]
+
+A typical AI analyzes its environment and takes actions that maximize its chance of success.[3] An AI's intended utility function (or goal) can be simple ("1 if the AI wins a game of Go, 0 otherwise") or complex ("Perform actions mathematically similar to ones that succeeded in the past"). Goals can be explicitly defined or induced. If the AI is programmed for "reinforcement learning", goals can be implicitly induced by rewarding some types of behavior or punishing others.[a] Alternatively, an evolutionary system can induce goals by using a "fitness function" to mutate and preferentially replicate high-scoring AI systems, similar to how animals evolved to innately desire certain goals such as finding food.[78] Some AI systems, such as nearest-neighbor, instead of reason by analogy, these systems are not generally given goals, except to the degree that goals are implicit in their training data.[79] Such systems can still be benchmarked if the non-goal system is framed as a system whose "goal" is to accomplish its narrow classification task.[80]
+
+AI often revolves around the use of algorithms. An algorithm is a set of unambiguous instructions that a mechanical computer can execute.[b] A complex algorithm is often built on top of other, simpler, algorithms. A simple example of an algorithm is the following (optimal for first player) recipe for play at tic-tac-toe:[81]
+
+If someone has a "threat" (that is, two in a row), take the remaining square. Otherwise,
+if a move "forks" to create two threats at once, play that move. Otherwise,
+take the center square if it is free. Otherwise,
+if your opponent has played in a corner, take the opposite corner. Otherwise,
+take an empty corner if one exists. Otherwise,
+take any empty square.
+Many AI algorithms are capable of learning from data; they can enhance themselves by learning new heuristics (strategies, or "rules of thumb", that have worked well in the past), or can themselves write other algorithms. Some of the "learners" described below, including Bayesian networks, decision trees, and nearest-neighbor, could theoretically, (given infinite data, time, and memory) learn to approximate any function, including which combination of mathematical functions would best describe the world.[citation needed] These learners could therefore derive all possible knowledge, by considering every possible hypothesis and matching them against the data. In practice, it is seldom possible to consider every possibility, because of the phenomenon of "combinatorial explosion", where the time needed to solve a problem grows exponentially. Much of AI research involves figuring out how to identify and avoid considering a broad range of possibilities unlikely to be beneficial.[82][83] For example, when viewing a map and looking for the shortest driving route from Denver to New York in the East, one can in most cases skip looking at any path through San Francisco or other areas far to the West; thus, an AI wielding a pathfinding algorithm like A* can avoid the combinatorial explosion that would ensue if every possible route had to be ponderously considered.[84]
+
+The earliest (and easiest to understand) approach to AI was symbolism (such as formal logic): "If an otherwise healthy adult has a fever, then they may have influenza". A second, more general, approach is Bayesian inference: "If the current patient has a fever, adjust the probability they have influenza in such-and-such way". The third major approach, extremely popular in routine business AI applications, are analogizers such as SVM and nearest-neighbor: "After examining the records of known past patients whose temperature, symptoms, age, and other factors mostly match the current patient, X% of those patients turned out to have influenza". A fourth approach is harder to intuitively understand, but is inspired by how the brain's machinery works: the artificial neural network approach uses artificial "neurons" that can learn by comparing itself to the desired output and altering the strengths of the connections between its internal neurons to "reinforce" connections that seemed to be useful. These four main approaches can overlap with each other and with evolutionary systems; for example, neural nets can learn to make inferences, to generalize, and to make analogies. Some systems implicitly or explicitly use multiple of these approaches, alongside many other AI and non-AI algorithms; the best approach is often different depending on the problem.[85][86]
+
+Learning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future. These inferences can be obvious, such as "since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well". They can be nuanced, such as "X% of families have geographically separate species with color variants, so there is a Y% chance that undiscovered black swans exist". Learners also work on the basis of "Occam's razor": The simplest theory that explains the data is the likeliest. Therefore, according to Occam's razor principle, a learner must be designed such that it prefers simpler theories to complex theories, except in cases where the complex theory is proven substantially better.
+
+
+The blue line could be an example of overfitting a linear function due to random noise.
+Settling on a bad, overly complex theory gerrymandered to fit all the past training data is known as overfitting. Many systems attempt to reduce overfitting by rewarding a theory in accordance with how well it fits the data, but penalizing the theory in accordance with how complex the theory is.[87] Besides classic overfitting, learners can also disappoint by "learning the wrong lesson". A toy example is that an image classifier trained only on pictures of brown horses and black cats might conclude that all brown patches are likely to be horses.[88] A real-world example is that, unlike humans, current image classifiers often don't primarily make judgments from the spatial relationship between components of the picture, and they learn relationships between pixels that humans are oblivious to, but that still correlate with images of certain types of real objects. Modifying these patterns on a legitimate image can result in "adversarial" images that the system misclassifies.[c][89][90]
+
+
+A self-driving car system may use a neural network to determine which parts of the picture seem to match previous training images of pedestrians, and then model those areas as slow-moving but somewhat unpredictable rectangular prisms that must be avoided.
+Compared with humans, existing AI lacks several features of human "commonsense reasoning"; most notably, humans have powerful mechanisms for reasoning about "naïve physics" such as space, time, and physical interactions. This enables even young children to easily make inferences like "If I roll this pen off a table, it will fall on the floor". Humans also have a powerful mechanism of "folk psychology" that helps them to interpret natural-language sentences such as "The city councilmen refused the demonstrators a permit because they advocated violence" (A generic AI has difficulty discerning whether the ones alleged to be advocating violence are the councilmen or the demonstrators[91][92][93]). This lack of "common knowledge" means that AI often makes different mistakes than humans make, in ways that can seem incomprehensible. For example, existing self-driving cars cannot reason about the location nor the intentions of pedestrians in the exact way that humans do, and instead must use non-human modes of reasoning to avoid accidents.[94][95][96]
+
+Challenges
+The cognitive capabilities of current architectures are very limited, using only a simplified version of what intelligence is really capable of. For instance, the human mind has come up with ways to reason beyond measure and logical explanations to different occurrences in life. What would have been otherwise straightforward, an equivalently difficult problem may be challenging to solve computationally as opposed to using the human mind. This gives rise to two classes of models: structuralist and functionalist. The structural models aim to loosely mimic the basic intelligence operations of the mind such as reasoning and logic. The functional model refers to the correlating data to its computed counterpart.[97]
+
+The overall research goal of artificial intelligence is to create technology that allows computers and machines to function in an intelligent manner. The general problem of simulating (or creating) intelligence has been broken down into sub-problems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention.[20]
+
+Reasoning, problem solving
+Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions.[98] By the late 1980s and 1990s, AI research had developed methods for dealing with uncertain or incomplete information, employing concepts from probability and economics.[99]
+
+These algorithms proved to be insufficient for solving large reasoning problems because they experienced a "combinatorial explosion": they became exponentially slower as the problems grew larger.[82] Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.[
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font face="AR cena"size="14"color="blue"><br>
+
+Applications
+<font face="AR cena"size="6"color="black"><br>
+Main article: Applications of artificial intelligence
+AI is relevant to any intellectual task.[192] Modern artificial intelligence techniques are pervasive[193] and are too numerous to list here. Frequently, when a technique reaches mainstream use, it is no longer considered artificial intelligence; this phenomenon is described as the AI effect.[194]
+
+High-profile examples of AI include autonomous vehicles (such as drones and self-driving cars), medical diagnosis, creating art (such as poetry), proving mathematical theorems, playing games (such as Chess or Go), search engines (such as Google Search), online assistants (such as Siri), image recognition in photographs, spam filtering, predicting flight delays,[195] prediction of judicial decisions,[196] targeting online advertisements, [192][197][198] and energy storage[199]
+
+With social media sites overtaking TV as a source for news for young people and news organizations increasingly reliant on social media platforms for generating distribution,[200] major publishers now use artificial intelligence (AI) technology to post stories more effectively and generate higher volumes of traffic.[201]
+
+AI can also produce Deepfakes, a content-altering technology. ZDNet reports, "It presents something that did not actually occur," Though 88% of Americans believe Deepfakes can cause more harm than good, only 47% of them believe they can be targeted. The boom of election year also opens public discourse to threats of videos of falsified politician media.[202]
+
+Philosophy and ethics
+Main articles: Philosophy of artificial intelligence and Ethics of artificial intelligence
+
+This section should include only a brief summary of another article. See Wikipedia:Summary style for information on how to properly incorporate it into this article's main text. (August 2020)
+There are three philosophical questions related to AI:[203]
+
+Whether artificial general intelligence is possible; whether a machine can solve any problem that a human being can solve using intelligence, or if there are hard limits to what a machine can accomplish.
+Whether intelligent machines are dangerous; how humans can ensure that machines behave ethically and that they are used ethically.
+Whether a machine can have a mind, consciousness and mental states in the same sense that human beings do; if a machine can be sentient, and thus deserve certain rights − and if a machine can intentionally cause harm.
+The limits of artificial general intelligence
+Main articles: Philosophy of artificial intelligence, Turing test, Physical symbol systems hypothesis, Dreyfus' critique of artificial intelligence, The Emperor's New Mind, and AI effect
+Alan Turing's "polite convention"
+One need not decide if a machine can "think"; one need only decide if a machine can act as intelligently as a human being. This approach to the philosophical problems associated with artificial intelligence forms the basis of the Turing test.[204]
+The Dartmouth proposal
+"Every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it." This conjecture was printed in the proposal for the Dartmouth Conference of 1956.[205]
+Newell and Simon's physical symbol system hypothesis
+"A physical symbol system has the necessary and sufficient means of general intelligent action." Newell and Simon argue that intelligence consists of formal operations on symbols.[206] Hubert Dreyfus argues that, on the contrary, human expertise depends on unconscious instinct rather than conscious symbol manipulation, and on having a "feel" for the situation, rather than explicit symbolic knowledge. (See Dreyfus' critique of AI.)[i][208]
+Gödelian arguments
+Gödel himself,[209] John Lucas (in 1961) and Roger Penrose (in a more detailed argument from 1989 onwards) made highly technical arguments that human mathematicians can consistently see the truth of their own "Gödel statements" and therefore have computational abilities beyond that of mechanical Turing machines.[210] However, some people do not agree with the "Gödelian arguments".[211][212][213]
+The artificial brain argument
+An argument asserting that the brain can be simulated by machines and, because brains exhibit intelligence, these simulated brains must also exhibit intelligence − ergo, machines can be intelligent. Hans Moravec, Ray Kurzweil and others have argued that it is technologically feasible to copy the brain directly into hardware and software, and that such a simulation will be essentially identical to the original.[164]
+The AI effect
+A hypothesis claiming that machines are already intelligent, but observers have failed to recognize it. For example, when Deep Blue beat Garry Kasparov in chess, the machine could be described as exhibiting intelligence. However, onlookers commonly discount the behavior of an artificial intelligence program by arguing that it is not "real" intelligence, with "real" intelligence being in effect defined as whatever behavior machines cannot do.
+Ethical machines
+Machines with intelligence have the potential to use their intelligence to prevent harm and minimize the risks; they may have the ability to use ethical reasoning to better choose their actions in the world. As such, there is a need for policy making to devise policies for and regulate artificial intelligence and robotics.[214] Research in this area includes machine ethics, artificial moral agents, friendly AI and discussion towards building a human rights framework is also in talks.[215]
+
+Joseph Weizenbaum in Computer Power and Human Reason wrote that AI applications cannot, by definition, successfully simulate genuine human empathy and that the use of AI technology in fields such as customer service or psychotherapy[j] was deeply misguided. Weizenbaum was also bothered that AI researchers (and some philosophers) were willing to view the human mind as nothing more than a computer program (a position now known as computationalism). To Weizenbaum these points suggest that AI research devalues human life.[217]
+
+Artificial moral agents
+Wendell Wallach introduced the concept of artificial moral agents (AMA) in his book Moral Machines[218] For Wallach, AMAs have become a part of the research landscape of artificial intelligence as guided by its two central questions which he identifies as "Does Humanity Want Computers Making Moral Decisions"[219] and "Can (Ro)bots Really Be Moral".[220] For Wallach, the question is not centered on the issue of whether machines can demonstrate the equivalent of moral behavior, unlike the constraints which society may place on the development of AMAs.[221]
+
+Machine ethics
+Main article: Machine ethics
+The field of machine ethics is concerned with giving machines ethical principles, or a procedure for discovering a way to resolve the ethical dilemmas they might encounter, enabling them to function in an ethically responsible manner through their own ethical decision making.[222] The field was delineated in the AAAI Fall 2005 Symposium on Machine Ethics: "Past research concerning the relationship between technology and ethics has largely focused on responsible and irresponsible use of technology by human beings, with a few people being interested in how human beings ought to treat machines. In all cases, only human beings have engaged in ethical reasoning. The time has come for adding an ethical dimension to at least some machines. Recognition of the ethical ramifications of behavior involving machines, as well as recent and potential developments in machine autonomy, necessitate this. In contrast to computer hacking, software property issues, privacy issues and other topics normally ascribed to computer ethics, machine ethics is concerned with the behavior of machines towards human users and other machines. Research in machine ethics is key to alleviating concerns with autonomous systems—it could be argued that the notion of autonomous machines without such a dimension is at the root of all fear concerning machine intelligence. Further, investigation of machine ethics could enable the discovery of problems with current ethical theories, advancing our thinking about Ethics."[223] Machine ethics is sometimes referred to as machine morality, computational ethics or computational morality. A variety of perspectives of this nascent field can be found in the collected edition "Machine Ethics"[222] that stems from the AAAI Fall 2005 Symposium on Machine Ethics.[223]
+
+Malevolent and friendly AI
+Main article: Friendly artificial intelligence
+Political scientist Charles T. Rubin believes that AI can be neither designed nor guaranteed to be benevolent.[224] He argues that "any sufficiently advanced benevolence may be indistinguishable from malevolence." Humans should not assume machines or robots would treat us favorably because there is no a priori reason to believe that they would be sympathetic to our system of morality, which has evolved along with our particular biology (which AIs would not share). Hyper-intelligent software may not necessarily decide to support the continued existence of humanity and would be extremely difficult to stop. This topic has also recently begun to be discussed in academic publications as a real source of risks to civilization, humans, and planet Earth.
+
+One proposal to deal with this is to ensure that the first generally intelligent AI is 'Friendly AI' and will be able to control subsequently developed AIs. Some question whether this kind of check could actually remain in place.
+
+Leading AI researcher Rodney Brooks writes, "I think it is a mistake to be worrying about us developing malevolent AI anytime in the next few hundred years. I think the worry stems from a fundamental error in not distinguishing the difference between the very real recent advances in a particular aspect of AI and the enormity and complexity of building sentient volitional intelligence."[225]
+
+Lethal autonomous weapons are of concern. Currently, 50+ countries are researching battlefield robots, including the United States, China, Russia, and the United Kingdom. Many people concerned about risk from superintelligent AI also want to limit the use of artificial soldiers and drones.[226]
+
+Machine consciousness, sentience and mind
+Main article: Artificial consciousness
+If an AI system replicates all key aspects of human intelligence, will that system also be sentient—will it have a mind which has conscious experiences? This question is closely related to the philosophical problem as to the nature of human consciousness, generally referred to as the hard problem of consciousness.
+
+Consciousness
+Main articles: Hard problem of consciousness and Theory of mind
+David Chalmers identified two problems in understanding the mind, which he named the "hard" and "easy" problems of consciousness.[227] The easy problem is understanding how the brain processes signals, makes plans and controls behavior. The hard problem is explaining how this feels or why it should feel like anything at all. Human information processing is easy to explain, however human subjective experience is difficult to explain.
+
+For example, consider what happens when a person is shown a color swatch and identifies it, saying "it's red". The easy problem only requires understanding the machinery in the brain that makes it possible for a person to know that the color swatch is red. The hard problem is that people also know something else—they also know what red looks like. (Consider that a person born blind can know that something is red without knowing what red looks like.)[k] Everyone knows subjective experience exists, because they do it every day (e.g., all sighted people know what red looks like). The hard problem is explaining how the brain creates it, why it exists, and how it is different from knowledge and other aspects of the brain.
+
+Computationalism and functionalism
+Main articles: Computationalism and Functionalism (philosophy of mind)
+Computationalism is the position in the philosophy of mind that the human mind or the human brain (or both) is an information processing system and that thinking is a form of computing.[228] Computationalism argues that the relationship between mind and body is similar or identical to the relationship between software and hardware and thus may be a solution to the mind-body problem. This philosophical position was inspired by the work of AI researchers and cognitive scientists in the 1960s and was originally proposed by philosophers Jerry Fodor and Hilary Putnam.
+
+Strong AI hypothesis
+Main article: Chinese room
+The philosophical position that John Searle has named "strong AI" states: "The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds."[l] Searle counters this assertion with his Chinese room argument, which asks us to look inside the computer and try to find where the "mind" might be.[230]
+
+Robot rights
+Main article: Robot rights
+If a machine can be created that has intelligence, could it also feel? If it can feel, does it have the same rights as a human? This issue, now known as "robot rights", is currently being considered by, for example, California's Institute for the Future, although many critics believe that the discussion is premature.[231][232] Some critics of transhumanism argue that any hypothetical robot rights would lie on a spectrum with animal rights and human rights.[233] The subject is profoundly discussed in the 2010 documentary film Plug & Pray,[234] and many sci fi media such as Star Trek Next Generation, with the character of Commander Data, who fought being disassembled for research, and wanted to "become human", and the robotic holograms in Voyager.
+
+Superintelligence
+Main article: Superintelligence
+Are there limits to how intelligent machines—or human-machine hybrids—can be? A superintelligence, hyperintelligence, or superhuman intelligence is a hypothetical agent that would possess intelligence far surpassing that of the brightest and most gifted human mind. Superintelligence may also refer to the form or degree of intelligence possessed by such an agent.[157]
+
+Technological singularity
+Main articles: Technological singularity and Moore's law
+If research into Strong AI produced sufficiently intelligent software, it might be able to reprogram and improve itself. The improved software would be even better at improving itself, leading to recursive self-improvement.[235] The new intelligence could thus increase exponentially and dramatically surpass humans. Science fiction writer Vernor Vinge named this scenario "singularity".[236] Technological singularity is when accelerating progress in technologies will cause a runaway effect wherein artificial intelligence will exceed human intellectual capacity and control, thus radically changing or even ending civilization. Because the capabilities of such an intelligence may be impossible to comprehend, the technological singularity is an occurrence beyond which events are unpredictable or even unfathomable.[236][157]
+
+Ray Kurzweil has used Moore's law (which describes the relentless exponential improvement in digital technology) to calculate that desktop computers will have the same processing power as human brains by the year 2029 and predicts that the singularity will occur in 2045.[236]
+
+Transhumanism
+Main article: Transhumanism
+Robot designer Hans Moravec, cyberneticist Kevin Warwick, and inventor Ray Kurzweil have predicted that humans and machines will merge in the future into cyborgs that are more capable and powerful than either.[237] This idea, called transhumanism, has roots in Aldous Huxley and Robert Ettinger.
+
+Edward Fredkin argues that "artificial intelligence is the next stage in evolution", an idea first proposed by Samuel Butler's "Darwin among the Machines" as far back as 1863, and expanded upon by George Dyson in his book of the same name in 1998.[238]
+
+Impact
+The long-term economic effects of AI are uncertain. A survey of economists showed disagreement about whether the increasing use of robots and AI will cause a substantial increase in long-term unemployment, but they generally agree that it could be a net benefit, if productivity gains are redistributed.[239] A 2017 study by PricewaterhouseCoopers sees the People’s Republic of China gaining economically the most out of AI with 26,1% of GDP until 2030.[240] A February 2020 European Union white paper on artificial intelligence advocated for artificial intelligence for economic benefits, including "improving healthcare (e.g. making diagnosis more precise, enabling better prevention of diseases), increasing the efficiency of farming, contributing to climate change mitigation and adaptation, [and] improving the efficiency of production systems through predictive maintenance", while acknowledging potential risks.[193]
+
+The relationship between automation and employment is complicated. While automation eliminates old jobs, it also creates new jobs through micro-economic and macro-economic effects.[241] Unlike previous waves of automation, many middle-class jobs may be eliminated by artificial intelligence; The Economist states that "the worry that AI could do to white-collar jobs what steam power did to blue-collar ones during the Industrial Revolution" is "worth taking seriously".[242] Subjective estimates of the risk vary widely; for example, Michael Osborne and Carl Benedikt Frey estimate 47% of U.S. jobs are at "high risk" of potential automation, while an OECD report classifies only 9% of U.S. jobs as "high risk".[243][244][245] Jobs at extreme risk range from paralegals to fast food cooks, while job demand is likely to increase for care-related professions ranging from personal healthcare to the clergy.[246] Author Martin Ford and others go further and argue that many jobs are routine, repetitive and (to an AI) predictable; Ford warns that these jobs may be automated in the next couple of decades, and that many of the new jobs may not be "accessible to people with average capability", even with retraining. Economists point out that in the past technology has tended to increase rather than reduce total employment, but acknowledge that "we're in uncharted territory" with AI.[35]
+
+The potential negative effects of AI and automation were a major issue for Andrew Yang's 2020 presidential campaign in the United States.[247] Irakli Beridze, Head of the Centre for Artificial Intelligence and Robotics at UNICRI, United Nations, has expressed that "I think the dangerous applications for AI, from my point of view, would be criminals or large terrorist organizations using it to disrupt large processes or simply do pure harm. [Terrorists could cause harm] via digital warfare, or it could be a combination of robotics, drones, with AI and other things as well that could be really dangerous. And, of course, other risks come from things like job losses. If we have massive numbers of people losing jobs and don't find a solution, it will be extremely dangerous. Things like lethal autonomous weapons systems should be properly governed — otherwise there's massive potential of misuse."[248]
+
+Risks of narrow AI
+Main article: Workplace impact of artificial intelligence
+Widespread use of artificial intelligence could have unintended consequences that are dangerous or undesirable. Scientists from the Future of Life Institute, among others, described some short-term research goals to see how AI influences the economy, the laws and ethics that are involved with AI and how to minimize AI security risks. In the long-term, the scientists have proposed to continue optimizing function while minimizing possible security risks that come along with new technologies.[249]
+
+Some are concerned about algorithmic bias, that AI programs may unintentionally become biased after processing data that exhibits bias.[250] Algorithms already have numerous applications in legal systems. An example of this is COMPAS, a commercial program widely used by U.S. courts to assess the likelihood of a defendant becoming a recidivist. ProPublica claims that the average COMPAS-assigned recidivism risk level of black defendants is significantly higher than the average COMPAS-assigned risk level of white defendants.[251]
+
+Risks of general AI
+Main article: Existential risk from artificial general intelligence
+Physicist Stephen Hawking, Microsoft founder Bill Gates, history professor Yuval Noah Harari, and SpaceX founder Elon Musk have expressed concerns about the possibility that AI could evolve to the point that humans could not control it, with Hawking theorizing that this could "spell the end of the human race".[252][253][254][255]
+
+The development of full artificial intelligence could spell the end of the human race. Once humans develop artificial intelligence, it will take off on its own and redesign itself at an ever-increasing rate. Humans, who are limited by slow biological evolution, couldn't compete and would be superseded.
+
+— Stephen Hawking[256]
+In his book Superintelligence, philosopher Nick Bostrom provides an argument that artificial intelligence will pose a threat to humankind. He argues that sufficiently intelligent AI, if it chooses actions based on achieving some goal, will exhibit convergent behavior such as acquiring resources or protecting itself from being shut down. If this AI's goals do not fully reflect humanity's—one example is an AI told to compute as many digits of pi as possible—it might harm humanity in order to acquire more resources or prevent itself from being shut down, ultimately to better achieve its goal. Bostrom also emphasizes the difficulty of fully conveying humanity's values to an advanced AI. He uses the hypothetical example of giving an AI the goal to make humans smile to illustrate a misguided attempt. If the AI in that scenario were to become superintelligent, Bostrom argues, it may resort to methods that most humans would find horrifying, such as inserting "electrodes into the facial muscles of humans to cause constant, beaming grins" because that would be an efficient way to achieve its goal of making humans smile.[257] In his book Human Compatible, AI researcher Stuart J. Russell echoes some of Bostrom's concerns while also proposing an approach to developing provably beneficial machines focused on uncertainty and deference to humans,[258]:173 possibly involving inverse reinforcement learning.[258]:191–193
+
+Concern over risk from artificial intelligence has led to some high-profile donations and investments. A group of prominent tech titans including Peter Thiel, Amazon Web Services and Musk have committed $1 billion to OpenAI, a nonprofit company aimed at championing responsible AI development.[259] The opinion of experts within the field of artificial intelligence is mixed, with sizable fractions both concerned and unconcerned by risk from eventual superhumanly-capable AI.[260] Other technology industry leaders believe that artificial intelligence is helpful in its current form and will continue to assist humans. Oracle CEO Mark Hurd has stated that AI "will actually create more jobs, not less jobs" as humans will be needed to manage AI systems.[261] Facebook CEO Mark Zuckerberg believes AI will "unlock a huge amount of positive things," such as curing disease and increasing the safety of autonomous cars.[262] In January 2015, Musk donated $10 million to the Future of Life Institute to fund research on understanding AI decision making. The goal of the institute is to "grow wisdom with which we manage" the growing power of technology. Musk also funds companies developing artificial intelligence such as DeepMind and Vicarious to "just keep an eye on what's going on with artificial intelligence.[263] I think there is potentially a dangerous outcome there."[264][265]
+
+For the danger of uncontrolled advanced AI to be realized, the hypothetical AI would have to overpower or out-think all of humanity, which a minority of experts argue is a possibility far enough in the future to not be worth researching.[266][267] Other counterarguments revolve around humans being either intrinsically or convergently valuable from the perspective of an artificial intelligence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font face="AR cena"size="14"color="blue"><br>
+more about Artificial intelligence view
+
+<font face="AR cena"size="10"color="grean"><br>
+<a href="https://en.wikipedia.org/wiki/Artificial_intelligence#External_links">wikipedia</a>
+
+<font face="AR cena"size="10"color="grean"><br>
+<a href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp">investopedia</a>
+
+<font face="AR cena"size="10"color="grean"><br>
+<a href="https://www.aaai.org/">aaai</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+ 
